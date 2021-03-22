@@ -3,4 +3,5 @@
   (lib (name random-keyboard-parts)(type Legacy)(uri "C:/Users/Jirou/Documents/GitHub/millipad/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib")(options "")(descr ""))
   (lib (name Type-C)(type Legacy)(uri C:/Users/Jirou/Documents/GitHub/millipad/Type-C.pretty/Type-C.lib)(options "")(descr ""))
   (lib (name keebio)(type Legacy)(uri C:/Users/Jirou/Documents/GitHub/millipad/keebio-components/keebio.lib)(options "")(descr ""))
+  (lib (name prtr5v)(type Legacy)(uri C:/Users/Jirou/Documents/GitHub/millipad/prtr5v.pretty/prtr5v.lib)(options "")(descr ""))
 )
