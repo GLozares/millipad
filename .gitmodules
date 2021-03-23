@@ -13,3 +13,6 @@
 [submodule "keebio-components"]
 	path = keebio-components
 	url = https://github.com/keebio/keebio-components
+[submodule "ssd1306-128x32/KiCad-SSD1306_OLED-0.91-128x32"]
+	path = ssd1306-128x32/KiCad-SSD1306_OLED-0.91-128x32
+	url = https://github.com/MichMich/KiCad-SSD1306_OLED-0.91-128x32

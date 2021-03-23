@@ -4,4 +4,5 @@
   (lib (name Type-C)(type Legacy)(uri C:/Users/Jirou/Documents/GitHub/millipad/Type-C.pretty/Type-C.lib)(options "")(descr ""))
   (lib (name keebio)(type Legacy)(uri C:/Users/Jirou/Documents/GitHub/millipad/keebio-components/keebio.lib)(options "")(descr ""))
   (lib (name prtr5v)(type Legacy)(uri C:/Users/Jirou/Documents/GitHub/millipad/prtr5v.pretty/prtr5v.lib)(options "")(descr ""))
+  (lib (name SSD1306_OLED-0.91-128x32)(type Legacy)(uri C:/Users/Jirou/Documents/GitHub/millipad/ssd1306-128x32/KiCad-SSD1306_OLED-0.91-128x32.pretty/SSD1306_OLED-0.91-128x32.lib)(options "")(descr ""))
 )
