@@ -4,4 +4,5 @@
   (lib (name Type-C)(type KiCad)(uri C:/Users/Jirou/Documents/GitHub/millipad/Type-C.pretty)(options "")(descr ""))
   (lib (name random-keyboard-parts)(type KiCad)(uri C:/Users/Jirou/Documents/GitHub/millipad/random-keyboard-parts.pretty)(options "")(descr ""))
   (lib (name prtr5v)(type KiCad)(uri C:/Users/Jirou/Documents/GitHub/millipad/prtr5v.pretty)(options "")(descr ""))
+  (lib (name jirou-design)(type KiCad)(uri C:/Users/Jirou/Documents/GitHub/multipurpose-macropad-tht-version/jirou-design.pretty)(options "")(descr ""))
 )
