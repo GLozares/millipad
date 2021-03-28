@@ -13,3 +13,6 @@
 [submodule "keebio-components"]
 	path = keebio-components
 	url = https://github.com/keebio/keebio-components
+[submodule "KiCad-SSD1306-128x64"]
+	path = KiCad-SSD1306-128x64
+	url = https://github.com/pforrmi/KiCad-SSD1306-128x64
