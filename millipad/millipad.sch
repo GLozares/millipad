@@ -1242,14 +1242,118 @@ $EndComp
 Wire Wire Line
 	4250 1150 4450 1150
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0101
 U 1 1 606B5B8A
 P 4550 1150
-F 0 "#PWR?" H 4550 1000 50  0001 C CNN
+F 0 "#PWR0101" H 4550 1000 50  0001 C CNN
 F 1 "+5V" H 4565 1323 50  0000 C CNN
 F 2 "" H 4550 1150 50  0001 C CNN
 F 3 "" H 4550 1150 50  0001 C CNN
 	1    4550 1150
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:6P6C J1
+U 1 1 606D5F68
+P 1000 2800
+F 0 "J1" H 1057 3367 50  0000 C CNN
+F 1 "6P6C" H 1057 3276 50  0000 C CNN
+F 2 "Connector_PinSocket_1.00mm:PinSocket_2x03_P1.00mm_Vertical_SMD" V 1000 2825 50  0001 C CNN
+F 3 "~" V 1000 2825 50  0001 C CNN
+	1    1000 2800
+	1    0    0    -1  
+$EndComp
+Text GLabel 1400 3000 2    50   Input ~ 0
+KEYBOARD_GND
+Text GLabel 1400 2900 2    50   Input ~ 0
+KEYBOARD_VCC
+Text GLabel 1400 2800 2    50   Input ~ 0
+B3_MISO
+Text GLabel 1400 2700 2    50   Input ~ 0
+B2_MOSI
+Text GLabel 1400 2600 2    50   Input ~ 0
+B1_SCLK
+Text GLabel 1400 2500 2    50   Input ~ 0
+KEYBOARD_RESET
+Text GLabel 2300 4300 1    50   Input ~ 0
+KEYBOARD_RESET
+Text GLabel 3000 4000 2    50   Input ~ 0
+KEYBOARD_VCC
+Text GLabel 2900 7600 2    50   Input ~ 0
+KEYBOARD_GND
+Text GLabel 3500 4400 2    50   Input ~ 0
+B1_SCLK
+Text GLabel 3500 4500 2    50   Input ~ 0
+B2_MOSI
+Text GLabel 3500 4600 2    50   Input ~ 0
+B3_MISO
+$Comp
+L Switch:SW_Push SW3
+U 1 1 60701A5F
+P 4200 2600
+F 0 "SW3" H 4200 2885 50  0000 C CNN
+F 1 "SW_Push" H 4200 2794 50  0000 C CNN
+F 2 "random-keyboard-parts:SKQG-1155865" H 4200 2800 50  0001 C CNN
+F 3 "~" H 4200 2800 50  0001 C CNN
+	1    4200 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW4
+U 1 1 60703032
+P 4900 2600
+F 0 "SW4" H 4900 2885 50  0000 C CNN
+F 1 "SW_Push" H 4900 2794 50  0000 C CNN
+F 2 "random-keyboard-parts:SKQG-1155865" H 4900 2800 50  0001 C CNN
+F 3 "~" H 4900 2800 50  0001 C CNN
+	1    4900 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D14
+U 1 1 60704EFB
+P 3900 2800
+F 0 "D14" V 3946 2730 50  0000 R CNN
+F 1 "D_Small" V 3855 2730 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 3900 2800 50  0001 C CNN
+F 3 "~" V 3900 2800 50  0001 C CNN
+	1    3900 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D15
+U 1 1 60705388
+P 4600 2800
+F 0 "D15" V 4646 2730 50  0000 R CNN
+F 1 "D_Small" V 4555 2730 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 4600 2800 50  0001 C CNN
+F 3 "~" V 4600 2800 50  0001 C CNN
+	1    4600 2800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4700 2600 4600 2600
+Wire Wire Line
+	4600 2600 4600 2700
+Wire Wire Line
+	4000 2600 3900 2600
+Wire Wire Line
+	3900 2600 3900 2700
+Wire Wire Line
+	4600 2900 3900 2900
+Connection ~ 3900 2900
+Wire Wire Line
+	3900 2900 3650 2900
+Wire Wire Line
+	4400 2350 4400 2600
+Wire Wire Line
+	5100 2350 5100 2600
+Text GLabel 3650 2900 0    50   Input ~ 0
+ROW2
+Text GLabel 4400 2350 1    50   Input ~ 0
+COL2
+Text GLabel 5100 2350 1    50   Input ~ 0
+COL3
+Text GLabel 3500 7100 2    50   Input ~ 0
+ROW2
 $EndSCHEMATC
