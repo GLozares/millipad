@@ -1,1 +1,1 @@
-# The default keymap for MilliPad
+# The default keymap for millipad

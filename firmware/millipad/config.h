@@ -21,10 +21,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* USB Device descriptor parameter */
 #define VENDOR_ID    0xFEED
-#define PRODUCT_ID   0x3A4B
+#define PRODUCT_ID   0x1A1B
 #define DEVICE_VER   0x0001
-#define MANUFACTURER JirouDesign
-#define PRODUCT      MilliPad
+#define MANUFACTURER Jirou
+#define PRODUCT      millipad
 
 /* key matrix size */
 #define MATRIX_ROWS 2
@@ -47,45 +47,48 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* COL2ROW, ROW2COL */
 #define DIODE_DIRECTION COL2ROW
 
-/*
- * Split Keyboard specific options, make sure you have 'SPLIT_KEYBOARD = yes' in your rules.mk, and define SOFT_SERIAL_PIN.
- */
-//#define SOFT_SERIAL_PIN D0  // or D1, D2, D3, E6
 
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
 #define DEBOUNCE 5
-#define FORCE_NKRO
-#define MK_3_SPEED
-#define TERMINAL_HELP
+
+
+#define LOCKING_RESYNC_ENABLE
+
 
 /*
- * Feature disable options
- *  These options are also useful to firmware size reduction.
+ * Force NKRO
+ *
+ * Force NKRO (nKey Rollover) to be enabled by default, regardless of the saved
+ * state in the bootmagic EEPROM settings. (Note that NKRO must be enabled in the
+ * makefile for this to work.)
+ *
+ * If forced on, NKRO can be disabled via magic key (default = LShift+RShift+N)
+ * until the next keyboard reset.
+ *
+ * NKRO may prevent your keystrokes from being detected in the BIOS, but it is
+ * fully operational during normal computer usage.
+ *
+ * For a less heavy-handed approach, enable NKRO via magic key (LShift+RShift+N)
+ * or via bootmagic (hold SPACE+N while plugging in the keyboard). Once set by
+ * bootmagic, NKRO mode will always be enabled until it is toggled again during a
+ * power-up.
+ *
  */
+#define FORCE_NKRO
 
-/* disable debug print */
-//#define NO_DEBUG
 
-/* disable print */
-//#define NO_PRINT
-
-/* disable action features */
-//#define NO_ACTION_LAYER
-//#define NO_ACTION_TAPPING
-//#define NO_ACTION_ONESHOT
 
 /* disable these deprecated features by default */
-//#define NO_ACTION_MACRO
-//#define NO_ACTION_FUNCTION
+#define NO_ACTION_MACRO
+#define NO_ACTION_FUNCTION
 
 /* Bootmagic Lite key configuration */
 //#define BOOTMAGIC_LITE_ROW 0
 //#define BOOTMAGIC_LITE_COLUMN 0
 
-//Encoders
-#define ENCODERS_PAD_A { D2 }
-#define ENCODERS_PAD_B { D3 }
-#define ENCODER_RESOLUTION 3
+/* Encoder Definitions */
 
-#define LOCKING_RESYNC_ENABLE
+#define ENCODERS_PAD_A { D3 }
+#define ENCODERS_PAD_B { D2 }
+#define ENCODER_RESOLUTION 3

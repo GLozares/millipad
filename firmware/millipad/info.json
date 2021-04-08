@@ -1,25 +1,25 @@
 {
-    "keyboard_name": "MilliPad",
-    "url": "https://github.com/GLozares/millipad",
+    "keyboard_name": "millipad",
+    "url": "",
     "maintainer": "Jirou",
     "width": 6,
     "height": 2,
     "layouts": {
         "LAYOUT": {
             "layout": [
-                {"label": "M1", "x": 0, "y": 0},
-                {"label": "M2", "x": 1, "y": 0},
-                {"label": "M3", "x": 2, "y": 0},
-				{"label": "M4", "x": 3, "y": 0},
-				{"label": "M5", "x": 4, "y": 0},
-				{"label": "M6", "x": 5, "y": 0},
-
-                {"label": "M7", "x": 0, "y": 1, "w": 1},
-                {"label": "M8", "x": 1, "y": 1, "w": 1}
-				{"label": "M9", "x": 2, "y": 1, "w": 1}
-				{"label": "M10", "x": 3, "y": 1, "w": 1}
-				{"label": "M11", "x": 4, "y": 1, "w": 1}
-				{"label": "M12", "x": 5, "y": 1, "w": 1}
+                {"label": "k00", "x": 0, "y": 0},
+                {"label": "k01", "x": 1, "y": 0},
+                {"label": "k02", "x": 2, "y": 0},
+				{"label": "k03", "x": 3, "y": 0},
+				{"label": "k04", "x": 4, "y": 0},
+				{"label": "k05", "x": 5, "y": 0},
+				
+				{"label": "k10", "x": 0, "y": 1},
+				{"label": "k11", "x": 1, "y": 1},
+				{"label": "k12", "x": 2, "y": 1},
+				{"label": "k13", "x": 3, "y": 1},
+				{"label": "k14", "x": 4, "y": 1},
+				{"label": "k15", "x": 5, "y": 1}
             ]
         }
     }
